@@ -58,20 +58,6 @@ echo "<label>" . __("Birth Date: ", 'se') . "</label>";
 echo "<label>" . $event_data['bday'] . "</label>";
 echo "</div></div>";
 
-// El numero de telefono no se muestra por motivos de seguridad
-// Telephone Number
-// echo "<div class='se-row' ><div class='se-phone se-half' >";
-// echo "<label>" . __("Telephone Number: ", 'se') . "</label>";
-// echo "<label>" . $event_data['phone'] . "</label>";
-// echo "</div>";
-
-// La dirección no se muestra por motivos de seguridad
-// Full Address
-// echo "<div class='se-addr se-half' >";
-// echo "<label>" . __("Full Address (incl. District/Province): ", 'se') . "</label>";
-// echo "<label>" . $event_data['addr'] . "</label>";
-// echo "</div></div>";
-
 // Club Name
 echo "<div class='se-row' ><div class='se-club se-half' >";
 echo "<label>" . __("Running Team: ", 'se') . "</label>";
